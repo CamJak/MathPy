@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/PointMovingOnShapes/450974505_1769935044_223132457.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/PointMovingOnShapes/34786186_1544735276_2319886907.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/PointMovingOnShapes/34786186_641011677_1398403821.mp4'

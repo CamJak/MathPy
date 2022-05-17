@@ -124,17 +124,17 @@ class GoatProblem(Scene):
 		self.play(Create(node1))
 		self.play(node1.animate.shift(LEFT, UP).scale(.5))
 		node1_text = Text("Wolf", font_size=23).next_to(node1, UP)
-		self.play(Write(node1_text))
+		self.play(FadeIn(node1_text))
 		
 		self.play(Create(node2))
 		self.play(node2.animate.shift(RIGHT, UP).scale(.5))
 		node2_text = Text("Goat", font_size=23).next_to(node2, UP)
-		self.play(Write(node2_text))
+		self.play(FadeIn(node2_text))
 		
 		self.play(Create(node3))
 		self.play(node3.animate.scale(.5))
 		node3_text = Text("Cabbage", font_size=23).next_to(node3, DOWN)
-		self.play(Write(node3_text))
+		self.play(FadeIn(node3_text))
 		
 		# add lines
 		line1 = Line(node1.get_center(), node2.get_center(), z_index=0)

@@ -1,0 +1,13 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/450974505_1845661153_223132457.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_2902916691_931516895.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_1262920999_3788131927.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_1955705774_199393942.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_3065574301_1528322009.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_193447034_3736982656.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_2681631831_715086024.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_3570403794_2002112866.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_142368550_4196761844.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_457257188_1508041935.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_350346315_2881724328.mp4'
+file 'file:C:/Users/camja/Desktop/School/MathPy/media/videos/Animate/1080p60/partial_movie_files/GoatProblem/34786186_641011677_1750114587.mp4'

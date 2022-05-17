@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 # set range of x and function of y
-x = np.arange(0, 11, 0.5)
+x = np.arange(0, 11, 1)
 y = np.log(x)
 
 # print generated values for x and y
