@@ -117,30 +117,45 @@ class GoatProblem(Scene):
 		node3 = Circle(z_index=1)
 		node3.set_fill(GREEN, opacity=1).set_color(GREEN)
 		
-		# set initial positions if needed
+		# set initial positions
 		node3.shift(DOWN)
 		
-		# add nodes with text
+		## add nodes with text
+		# node 1
 		self.play(Create(node1))
-		self.play(node1.animate.shift(LEFT, UP).scale(.5))
+		self.play(node1.animate.shift(LEFT, UP).scale(.6))
 		node1_text = Text("Wolf", font_size=23).next_to(node1, UP)
-		self.play(FadeIn(node1_text))
+		self.play(Write(node1_text))
 		
+		# node 2
 		self.play(Create(node2))
-		self.play(node2.animate.shift(RIGHT, UP).scale(.5))
+		self.play(node2.animate.shift(RIGHT, UP).scale(.6))
 		node2_text = Text("Goat", font_size=23).next_to(node2, UP)
-		self.play(FadeIn(node2_text))
+		self.play(Write(node2_text))
 		
+		# node 3
 		self.play(Create(node3))
-		self.play(node3.animate.scale(.5))
+		self.play(node3.animate.scale(.6))
 		node3_text = Text("Cabbage", font_size=23).next_to(node3, DOWN)
-		self.play(FadeIn(node3_text))
+		self.play(Write(node3_text))
 		
-		# add lines
+		# add lines connecting nodes
 		line1 = Line(node1.get_center(), node2.get_center(), z_index=0)
 		self.play(Create(line1))
 		line2 = Line(node2.get_center(), node3.get_center(), z_index=0)
 		self.play(Create(line2))
+		
+		# remove text
+		self.play(FadeOut(node1_text, node2_text, node3_text))
+		
+		# create group and move nodes to left side
+		left_group = VGroup(node1, node2, node3, line1, line2)
+		self.play(left_group.animate.shift(LEFT*5))
+		
+		# create 'river' rectangle
+		river = Rectangle(color=BLUE, height=10, width=4)
+		river.set_fill(BLUE, opacity=1)
+		self.play(Create(river))
 		
 		# wait at end
 		self.wait()
